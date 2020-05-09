@@ -1,0 +1,89 @@
+//colors
+//colorPrimary
+$p-1: #33a9f4;
+$p-2: #f75e2e;
+$p-3: #ecfa4d;
+$p-4: #656a70;
+
+
+$reasoned-Color-1: #09a912;
+$reasoned-Color-2: #f44747;
+$reasoned-Color-3: #ffaa33;
+$reasoned-Color-4: #21a5f8;
+$reasoned-Color-margin: 100px;
+
+$light: #fff;
+$dark: #000;
+
+//light
+$l1-1:mix($light,$p-1,60%);
+$l1-2:mix($light,$p-2,60%);
+$l1-3:mix($light,$p-3,60%);
+$l1-4:mix($light,$p-4,60%);
+
+$l2-1:mix($light,$p-1,75%);
+$l2-2:mix($light,$p-2,75%);
+$l2-3:mix($light,$p-3,75%);
+$l2-4:mix($light,$p-4,75%);
+
+$l3-1:mix($light,$p-1,90%);
+$l3-2:mix($light,$p-2,90%);
+$l3-3:mix($light,$p-3,90%);
+$l3-4:mix($light,$p-4,90%);
+
+$d1-1:mix($dark,$p-1,20%);
+$d1-2:mix($dark,$p-2,20%);
+$d1-3:mix($dark,$p-3,20%);
+$d1-4:mix($dark,$p-4,20%);
+
+$d2-1:mix($dark,$p-1,50%);
+$d2-2:mix($dark,$p-2,50%);
+$d2-3:mix($dark,$p-3,50%);
+$d2-4:mix($dark,$p-4,50%);
+
+$d3-1:mix($dark,$p-1,70%);
+$d3-2:mix($dark,$p-2,70%);
+$d3-3:mix($dark,$p-3,70%);
+$d3-4:mix($dark,$p-4,70%);
+
+.pr-1 {background-color: $p-1;}
+.pr-2 {background-color: $p-2;}
+.pr-3 {background-color: $p-3;}
+.pr-4 {background-color: $p-4;}
+
+.l1-1 {background-color: $l1-1;}
+.l1-2 {background-color: $l1-2;}
+.l1-3 {background-color: $l1-3;}
+.l1-4 {background-color: $l1-4;}
+
+.l2-1 {background-color: $l2-1;}
+.l2-2 {background-color: $l2-2;}
+.l2-3 {background-color: $l2-3;}
+.l2-4 {background-color: $l2-4;}
+
+.l3-1 {background-color: $l3-1;}
+.l3-2 {background-color: $l3-2;}
+.l3-3 {background-color: $l3-3;}
+.l3-4 {background-color: $l3-4;}
+//dark
+.d1-1 {background-color: $d1-1;}
+.d1-2 {background-color: $d1-2;}
+.d1-3 {background-color: $d1-3;}
+.d1-4 {background-color: $d1-4;}
+
+.d2-1 {background-color: $d2-1;}
+.d2-2 {background-color: $d2-2;}
+.d2-3 {background-color: $d2-3;}
+.d2-4 {background-color: $d2-4;}
+
+.d3-1 {background-color: $d3-1;}
+.d3-2 {background-color: $d3-2;}
+.d3-3 {background-color: $d3-3;}
+.d3-4 {background-color: $d3-4;}
+
+.reasoned-Color-1 {background-color: $reasoned-Color-1; margin-left: $reasoned-Color-margin;}
+.reasoned-Color-2 {background-color: $reasoned-Color-2; margin-left: $reasoned-Color-margin;}
+.reasoned-Color-3 {background-color: $reasoned-Color-3; margin-left: $reasoned-Color-margin;}
+.reasoned-Color-4 {background-color: $reasoned-Color-4; margin-left: $reasoned-Color-margin;}
+
+

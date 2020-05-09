@@ -1,0 +1,284 @@
+aside {
+	padding-top: 60px;
+}
+
+.button_search {
+	position: absolute;
+	width: 255px;
+	height: 44px;
+	margin-bottom: 2px;
+}
+
+form.example input[type=text] {
+	position: relative;
+	 width: 212px;
+    padding: 10px;
+    @include p2;
+    float: left;
+    background: #f1f1f1;
+    border: none; outline: none;
+    border-left: 1px solid $l2-4;
+    border-top: 1px solid $l2-4;
+    border-bottom: 1px solid $l2-4;
+    overflow: hidden;
+}
+
+form.example button {
+    height: 100%;
+    background: #f1f1f1;
+    color: white;
+    float: left;
+    font-size: 12px;
+    cursor: pointer;
+    border: none; outline: none;
+    color: $d1-4;
+    border-top: 1px solid $l2-4;
+    border-bottom: 1px solid $l2-4;
+    border-right: 1px solid $l2-4;
+    padding: 14px;
+  
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.categories_tp {
+	padding-top: 92px;
+		h2 {
+			font-size: 14px;
+			text-transform: uppercase;
+			font-family: $font-bold;
+			padding-bottom: 15px;
+			color: $p-1;
+		}
+			ul {
+				border-top: 1px solid $p-1;
+			}
+				li {
+					 text-transform: uppercase;
+				    list-style-type: none;
+				    background:$l2-1;
+				    border-top: 1px solid $l1-1;
+				    padding: 10px;
+				    @include p2;
+				       i{
+				   	color: $l1-1;
+				   	padding-right: 10px;
+				   }
+						   &:hover {
+						   	background:$l1-1;
+						   }
+   			}
+}
+.archive_tp {
+	li {
+	 text-transform: none;
+}
+}
+.hed_blogs {
+	padding-top: 55px;
+	h2 {
+		font-size: 14px;
+		text-transform: uppercase;
+		font-family: $font-regular;
+		padding-bottom: 15px;
+		color: $p-1;
+	}
+}
+.elements_blogs {
+	padding-bottom: 5px;
+	border-bottom: 1px solid $l1-1;
+	img {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		max-width: 100%;
+	}
+	h3 {
+		@include h6;
+	}
+	p {
+		@include p3;
+		margin-top: 4px;
+	}
+}
+
+.fa-clock:before {
+    color: silver;
+    padding-right: 5px; 
+}
+.hed_Accept {
+		border-bottom: 2px solid $l1-1;
+		padding-top: 40px;
+	}
+.cash_tp {
+	padding-top: 10px;
+	padding-bottom: 60px;
+	img{
+		padding-left: 2px;
+	}
+	img:hover {
+		opacity: .6;
+	}
+	a {
+		padding: 1px;
+	}
+}
+.banner {
+position: relative; 
+}
+.banner_rocket {
+	background: $p-1;
+	max-width: 100%;
+	min-height: 363px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+	padding-top: 180px;
+	z-index: -1;
+}
+.square_baner{
+	margin-top: 20px;
+	border: 2px dashed $light;
+	padding-top: 15px;
+	border-radius: 15px;
+	text-align: center;
+	z-index: 1;
+	top: 1773px;
+	width: 80%;
+	display: block;
+	position: absolute;
+	background:$d1-1;
+
+		p{
+			font-family: $font-bold;
+			color: $light;
+		}
+		h2{
+			font-family: $font-bold;
+			@include h1;
+			text-transform: uppercase;
+			text-align: center;
+			margin-top: -20px;
+			color: $p-3;
+		}
+		h3{
+			@include p2;
+			font-family: $font-regular;
+			text-transform: uppercase;
+			text-align: center;
+			color: $light;
+			padding-bottom: 60px;
+		}
+
+}
+.square_text {
+	display: flex;
+	justify-content: center;
+}
+.rocket{
+	z-index:2;
+	height: 255px;
+	width: 174px;
+	height: 130px;
+	position: absolute; 
+	background: 
+	url(../img/aside/rocket.png) 63px 0px no-repeat;
+}
+.smoke{
+	position: absolute;
+	z-index: 3;
+	height: 183px;
+	position: relative; 
+	background: 
+	url(../img/aside/smoke.png) -27px 74px no-repeat;
+}
+.list_button{
+	margin-bottom: 20px;
+	ul {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	}
+	li {
+		list-style-type: none;
+		@include p2;
+		line-height: 35px;
+	}
+	i {
+		color: $p-1;
+		font-size: 9px;
+		padding-right: 10px;
+		font-weight: 10px;
+	}
+
+	button{
+		background: $d1-1;
+		border-radius: 5px;
+		width: 250px;
+		height: 40px;
+		font-size: 13px;
+		color: #fff;
+		border: none; 
+		outline: none;
+		&:hover{
+			opacity: .8;
+		}
+	}
+}
+.sale_circle {
+	padding: 5px;
+		i {
+		font-size: 13px;
+	}
+}
+.sale_circle {
+	p{
+		@include p2;
+		margin: 7px 0;
+	}
+	h4{
+		margin-top: -13px;
+		@include h4;
+	}
+	img{
+		margin-left: -42px;
+		padding-left: 10px;
+	}
+}
+.discount_position {
+	position: relative;
+	left: 13px;
+	width: 236px;
+}
+.discount{
+	text-align: center;
+	position: relative;
+	left: 26px;
+    top: 21px;
+	h4{
+		@include h4;
+		color: $l1-3;
+		font-family: $font-bold;
+	}
+}
+.light_color{
+		h4 {color: $light;}
+}
+.all_discount {
+	button{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+}
+.dis_text {
+	position: relative;
+	left: 20px;
+}
+
+
+
+
+
+
+
+

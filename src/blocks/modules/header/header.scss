@@ -1,0 +1,143 @@
+header {
+	background-color: $p-1;
+	width: 100%;
+	padding: 15px;
+}
+.list_header {
+		li {
+			padding-right: 30px;
+			list-style-type: none;
+			i {
+				padding-left: 10px;
+				}
+			a {
+			text-decoration: none; 
+			color: $light;
+			text-transform:uppercase;
+			font-family:$font-regular;
+			font-size: 12px;
+      &:hover{
+          opacity: 0.8;
+        }  
+			}
+		}
+	}
+
+
+a {
+	.bg_orange {
+		@include button;
+		background-color: $p-2;
+		color: $light;
+		padding-left: 20px;
+		}
+	.bg_blue {
+		@include button;
+		background-color: $d1-1;
+		color: $light;
+		}
+	.bg_orange,.bg_blue {
+		&:hover {
+		opacity: .8;}
+	}
+}
+
+
+
+
+
+
+
+// Hamburger Menu
+
+#nav-toggle {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  &:checked + .menu {
+    visibility: visible;
+    opacity: 1;
+
+  }
+}
+
+#nav-toggle-label {
+  right: 14em;
+  top: 2.5em;
+  z-index: 2;
+  cursor: pointer;
+  // display: none; ////////////////////
+  padding-left: 13px;
+
+  span, &:before, &:after{
+    display: block;
+    height: 3px;
+    background: $light;
+    width: 2em;
+    margin-bottom: .4em;
+    transition: .2s all linear;
+  }
+
+  &:before, &:after {
+    content: "";
+  }
+  
+}
+
+.menu {
+  font-size: 24px;
+  visibility: hidden;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 2em;
+  position: fixed;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  background: rgba(white, .5);
+  opacity: 0;
+  transition: .2s all linear;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  li{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    list-style: none;
+    font-family: $font-regular;
+    padding-left: 20px;
+    padding-right: 20px;
+    a{
+      text-decoration: none;
+      color: $p-1;
+    }
+  }
+}
+
+.nav-toggle-label--active{
+  span{
+    opacity: 0;
+  }
+  &:before{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+  }
+  &:after{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+  }
+}
+// div {
+// 	border: 1px solid red;
+// }
+
+
+

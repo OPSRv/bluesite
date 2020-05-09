@@ -1,0 +1,62 @@
+<header>
+	<div class="container">
+		<div class="row justify-content-between ">
+
+			<div class="col">
+				<img src="img/header/logo.png" alt="logo">
+			</div>
+
+			<div class="align-self-center col">
+				<div>
+				<ul class="list_header row d-flex">
+					<li><a href="#">services<i class="fas fa-sort-down"></i></a></li>
+					<li><a href="#">about us<i class="fas fa-sort-down"></i></a></li>
+					<li><a href="#">how it works</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-xl-5 col-lg-7 col-md-7 col-sm-12 row flex-nowrap justify-content-between align-self-center">
+			<a href="tel:111" class="align-self-center"><img src="img/header/phone_icon.png" alt="phone"></a>
+				<a href="#"><button class="bg_blue col">sigin in</button></a>
+				<a href="#"><button class="bg_orange col">order</button></a>
+		 <nav class="align-self-center row">
+				 	<label id="nav-toggle-label" for="nav-toggle"><span></span></label>
+				    <input id="nav-toggle" type="checkbox" />
+				    <ul class="menu">
+				      <li><a href="#">services</a></li>
+				      <li><a href="#">about us</a></li>
+				      <li><a href="#">how it works</a></li> 
+				    </ul>
+				 </nav>
+
+			</div>
+
+		</div>
+	</div>
+</header>
+
+<script>document.addEventListener('DOMContentLoaded', function(){
+  var checkbox = document.querySelector('#nav-toggle');
+  var checkboxLabel = document.querySelector('#nav-toggle-label');
+  
+  function removeActive(){
+    checkboxLabel.classList.remove('nav-toggle-label--active');
+  }
+
+  checkbox.onclick = function(){
+    if (checkbox.checked){
+      checkboxLabel.classList.add('nav-toggle-label--active');
+    } else{
+      removeActive();
+    }
+  };
+  
+  var menu = document.querySelector('.menu');
+  menu.onclick = function(){
+    removeActive();
+    checkbox.checked = false;
+  };
+  
+});</script>

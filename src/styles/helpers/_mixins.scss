@@ -1,0 +1,60 @@
+@mixin h1{
+	font-family: 'PoppinsBolt';
+	color:$d3-4;
+	font-size:35px;
+}
+@mixin h2{
+	font-family: 'PoppinsMedium';
+	color:$d2-4;
+	font-size:33px;
+}
+@mixin h3{
+	font-family: 'PoppinsMedium';
+	color:$d3-4;
+	font-size:27px;
+}
+@mixin h4{
+	font-family: 'PoppinsMedium';
+	color:$d3-4;
+	font-size:22px;
+}
+@mixin h5{
+	font-family: 'PoppinsMedium';
+	color:$d3-4;
+	font-size:17px;
+}
+@mixin h6{
+	font-family: 'PoppinsMedium';
+	color:$d3-4;
+	font-size:15px;
+}
+@mixin p1{
+	font-family: 'PoppinsRegular';
+	font-size: 20px;
+	color: $d1-4;
+}
+@mixin p2{
+	font-family: 'PoppinsRegular';
+	font-size: 14px;
+	color: $d1-4;
+}
+@mixin p3{
+	font-family: 'PoppinsRegular';
+	font-size: 13px;
+	color: $d1-4;
+}
+@mixin quotation{
+	font-family: 'PoppinsRegular';
+	font-size: 17px;
+	color: $d1-1;
+	background-color: $l3-1;
+}
+@mixin button{
+  font-family:$font-bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  text-transform:uppercase;
+  border: none;
+}
+

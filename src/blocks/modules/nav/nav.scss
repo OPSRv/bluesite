@@ -1,0 +1,24 @@
+.nav_textpage {
+	background:url(".././img/nav/navhed.png");
+	height: 230px;
+	}
+h1 {
+	@include h1;
+	padding-top: 75px;
+}
+.text_page_list{
+	li{
+		list-style-type: none;
+		padding-left: 15px;
+			a{
+				text-decoration: none; 
+				text-transform:uppercase;
+				font-family:$font-regular;
+				font-size: 15px;
+				color: $p-4;  
+				&:hover{
+					color:$d3-4;
+				}
+			}
+	}
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsBolt';
+    src: url('../fonts/Poppins.woff2') format('woff2'),
+        url('../fonts/Poppins.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?23781544');
+  src: url('../fonts/fontello.eot?23781544#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?23781544') format('woff2'),
+       url('../fonts/fontello.woff?23781544') format('woff'),
+       url('../fonts/fontello.ttf?23781544') format('truetype'),
+       url('../fonts/fontello.svg?23781544#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+//fonts
+$font-regular: 'PoppinsRegular';
+$font-medium:'PoppinsMedium';
+$font-bold: 'PoppinsBolt';
