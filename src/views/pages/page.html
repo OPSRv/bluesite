@@ -11,19 +11,19 @@
         <link rel="stylesheet" href="../styles/main.css">
     </head>
     <body>
-        @@include("../../blocks/modules/header/header.html")
-        <h1>New Page</h1>
-        
-        @@include("../../blocks/modules/footer/footer.html")
-<!-- @@include("../blocks/modules/header/nav.html") -->
-
-
-
-
-
-
-
-        <script src="../js/pageB.js"></script>
+    @@include("../blocks/modules/header/header.html")
+    @@include("../blocks/modules/nav/nav.html")
+        <div class="container">
+        <div class="row flex-sm-wrap">
+            @@include("../blocks/modules/banner/banner.html")
+            @@include("../blocks/modules/main/main.html")
+            <aside class="col-xl-3 col-lg-4">
+            @@include("../blocks/modules/aside/aside.html")
+            </aside>
+        </div>
+    </div>
+ @@include("../blocks/modules/footer/footer.html")
+         <script src="../js/pageB.js"></script>
         <script src="../js/vendor.js"></script>
     </body>
 </html>

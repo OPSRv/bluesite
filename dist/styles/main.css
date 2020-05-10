@@ -1176,7 +1176,7 @@ header {
   opacity: 0.8;
 }
 
-a .bg_orange {
+form .bg_orange {
   font-family: "PoppinsBolt";
   width: 100px;
   height: 40px;
@@ -1188,7 +1188,7 @@ a .bg_orange {
   padding-left: 20px;
 }
 
-a .bg_blue {
+form .bg_blue {
   font-family: "PoppinsBolt";
   width: 100px;
   height: 40px;
@@ -1199,8 +1199,8 @@ a .bg_blue {
   color: #fff;
 }
 
-a .bg_orange:hover,
-a .bg_blue:hover {
+form .bg_orange:hover,
+form .bg_blue:hover {
   opacity: .8;
 }
 
@@ -1425,7 +1425,6 @@ footer {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
@@ -1791,7 +1790,6 @@ form.example::after {
   color: #33a9f4;
   font-size: 9px;
   padding-right: 10px;
-  font-weight: 10px;
 }
 
 .list_button button {

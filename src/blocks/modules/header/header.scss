@@ -24,7 +24,8 @@ header {
 	}
 
 
-a {
+form {
+
 	.bg_orange {
 		@include button;
 		background-color: $p-2;
